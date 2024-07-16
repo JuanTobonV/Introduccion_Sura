@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    
+    <!-- Se usa la etiqueta <form> -->
+
+    <form action="">
+        <!-- Para hacer un enunciado, se hace con la etiqueta label -->
+        <label for="">Nombre</label>
+        <br>
+
+        <!-- Para crear el campo (Cuadro de texto, donde el usuario va a escribir la info) Se hace con la etiqueta input -->
+        <input type="text" name="" id="">
+
+        <!-- Cuando un input es tipo texto type = "text ", el usuario puede escribir de todo. -->
+
+        <br><br>
+        <label for="">Apellidos:</label>
+        <br>
+        <input type="text" name="" id="" placeholder="Escribe tus apellidos">
+
+        <!-- name = "" id="" son atributos de indentificación del elementos -->
+        <!-- placeholder = "" es un texto guia para decirle al usuario qué debe escribir en ese campo -->
+
+        <br><br>
+
+        <label for="">edad</label>
+        <br>
+
+        <!-- El typer = "number" solo permite escribir nums y la letra e de exponencial -->
+        <input type="number" name="" id="" placeholder="escribe tu edad en num">
+
+        <br><br>
+        
+        <label for="">Correo</label> <br>
+        <input type="email" name="" id="">
+
+        <br><br>
+
+        <label for="">Fecha y hora</label><br>
+        <input type="datetime-local" name="" id="">
+        <br><br>
+
+        <label for="">Hora: </label> <br>
+        <input type="time" name="" id="">
+        <br><br>
+
+
+
+        <label for="">Genero</label><br>
+        <input type="radio" name="genero" id=""> <label for="">Femenino</label>
+        <br>    
+                                                                                         
+        <input type="radio" name="genero" id=""> <label for="">Masculino</label>
+        <br><br>
+
+               <!-- Hay que poner el mismo name para que se pueda seleccionar uno de ellos -->
+
+        <label for="">Ciudad donde vive: </label> <br>
+        <select name="" id="">
+
+            <option value="">Colombia</option>
+            <option value="">Argentina</option>
+            <option value="">Otro</option>
+
+            <!-- Value es el dato que almacena los inputs y los select -->
+
+
+
+        </select>
+
+        <br><br>
+
+        <label for="">Comentario</label> <br>
+
+        <textarea name="" id="" cols="50" rows="20" placeholder="Escriba su comentario"></textarea>
+
+        <br><br>
+
+        <input type="checkbox" required> <label for="">Acepta?</label>
+
+        <br><br>
+
+        <input type="button" value="Enviar Datos">
+         <!-- Type = "button" es un botón estático, su funcionalidad se hace con lenguajes de programación  -->
+
+        <input type="submit" value="Guardar datos"> 
+        
+        <!-- Si estoy dentro de un formulario, se usa la etiqueta input. -->
+
+        <!-- type = "submit" recarga la pag  -->
+        
+        <input type="reset" value="Borrar los datos del form">
+
+    </form>
+
+    <button type="submit" >hola</button> <!-- Si no estoy en un form y necesito un botón, se usa la etiqueta button-->   
+
+</body>
+</html>
