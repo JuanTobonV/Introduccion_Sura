@@ -1,0 +1,47 @@
+/*Selector de etiqueta: modifica todas las etiquetas referenciadas en el html */
+
+h2{
+    color: dodgerblue; /*La propiedad color es solamente para modificar el color de las letras*/
+
+}
+
+/* Selectores de ID: Me permite llamar a un único elemento del html */
+
+#parrafo1{
+    color: darkslateblue;
+    font-size: 20px;  /*font-size sirve para modificar el tamaño de las letras*/
+}
+
+/* Selectores de clase: nos permite modificar a uno o a varios elementos del html */
+
+.fuente{
+    color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px
+    /* font-family: es para modificar la tipografia de la letra */
+}
+
+p{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1{
+    color: rgb(75, 148, 124);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /*text-align: me permite alinear posición el texto. Por defecto es a la izquierda.*/
+
+}
+
+/* Fondos: background */
+
+p, h2{
+    background-color: rgb(201, 201, 92);
+}
+
+body{
+    /*background-image: url(/Clase8/img/bosquejpg.jpg);
+    background-size: cover;*/
+
+    background-image: linear-gradient(to right top, #000000, #282528, #47464f, #626c79, #7a95a1, #81a0ab, #88acb4, #90b7bd, #84a6b0, #7a94a1, #718391, #677381);
+}
