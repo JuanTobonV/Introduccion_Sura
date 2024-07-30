@@ -1,0 +1,39 @@
+.titulo{
+    color: green;
+}
+
+.imagencuentos{
+    background-size: 400px;
+    background-image: url(/img/imgCuentos.png);
+    height: 450px;
+}
+
+.video{
+    width: 500px;
+    
+}
+
+.parrafoLindo{
+    font-size: 30px;
+}
+
+.enemigo{
+    color: red;
+}
+
+.entiendo{
+    border-top: 3px solid black;
+}
+
+.derrotarle{
+    font-size: 60px;
+}
+
+.tambienle{
+    color: blue;
+}
+
+.quiero{
+    font-weight: bold;
+    color: red;
+}
