@@ -1,0 +1,47 @@
+/*Selector Universal*/
+*{
+    margin: 0;
+}
+
+header{
+    background-color: bisque;
+}
+
+header img, footer img{
+    width: 200px ;
+}
+
+main .izquierda{
+    background-color: aqua;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+
+main .izquierda ul{
+    padding: 50px;
+    list-style: none;
+}
+
+.izquierda ul a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgoldenrod;
+}
+
+/*El :hover se conoce como una pseudoclase. El hover es visible cuando el usuario pasa el mouse por encima del elemento*/
+.izquierda ul a:hover{
+    color:blue
+}
+
+main .izquierda ul li{
+    padding: 10px;
+}
+
+main .derecha{
+    background-color: blueviolet;
+    width: 1110px;
+    height: 500px;
+    float: right;
+}

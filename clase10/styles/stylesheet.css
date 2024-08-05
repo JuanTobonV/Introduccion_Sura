@@ -1,0 +1,73 @@
+/*Modelado de cajas::
+    -padding
+    -border
+    -Margin
+
+    Todas esas propiedades excepto border tienen cuatro valores: arriba, derecha, abajo, izquierda
+
+    si tienen un solo valor, aplica pa los cuatro lados
+    si tiene dos valores, aplica para abajo-arriba y derecha izquierda
+    si tiene tres, se asemeja a un reloj: arriba, derecha, abajo
+    si tiene cuatro: arriba, derecha, abajo e izquierda.
+
+                        */
+
+.parrafo1{
+    background-color: aquamarine;
+    width: 200px;
+   border: 4px solid black; /*El border pide 3 valores: 1: el ancho de la linea del borde, 2. el tipo de borde, 3. color del borde*/
+}
+
+.parrafo2{
+    background-color: burlywood;
+    width: 200px;
+    border: 3px solid black;
+    padding: 12px; /*El padding es un espacio entre el contenido visible con respecto a su borde, este valor genera un espacio adicional al ancho y al alto*/
+}
+
+.parrafo3{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 20px;
+
+}
+
+.lista1{
+    background-color: bisque;
+    border: 3px solid black;
+    width: 200px;
+
+    padding-left: 40px;
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+.cuadro1{
+    width: 280px;
+    padding: 20px 5px 20px 20px;
+    border: 1px solid black;
+
+}
+
+.cuadro2{
+    width: 250px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid red;
+}
+
+.cuadro3{
+    padding: 20px 10px;
+    width: 250px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.cuadro4{
+    background-color: rgb(198, 252, 252);
+    width: 250px;
+    padding: 20px;
+    border-left: 7px solid cyan;
+    
+}
