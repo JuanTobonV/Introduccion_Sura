@@ -8,14 +8,16 @@ header{
 }
 
 header img, footer img{
-    width: 200px ;
+    width: 200px;
 }
+
 
 main .izquierda{
     background-color: aqua;
     width: 400px;
     height: 500px;
     float: left;
+    
 }
 
 main .izquierda ul{
@@ -44,4 +46,15 @@ main .derecha{
     width: 1110px;
     height: 500px;
     float: right;
+}
+
+footer{
+    background-color: brown;
+    clear: both; /*Solo sirve si se ha trabajado con float. Limpia los espacios dejados por los anteriores elementos flotantes y envia por debajo ellos al contenedor que le damos esta propiedad*/
+}
+
+footer img{
+    width: 300px;
+    margin: 12px;
+
 }

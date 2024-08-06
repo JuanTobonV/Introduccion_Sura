@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   padding: 0px 345px;
+}
+
+header{
+    background-color: rgb(219, 175, 118);
+    text-align: center;
+}
+
+header nav{
+    background-color: rgb(95, 95, 95);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+header a{
+    padding: 50px;
+    font-size: 19px;
+    color: blue;
+}
+
+.parrafo1{
+    background-color: gray;
+    width: 500px;
+    height: 700px;
+    float: left;
+}
+
+.parrafo2{
+    background-color: salmon;
+    width: 700px;
+    height: 350px;
+    margin-bottom: 25px;
+    float: right;
+}
+
+.parrafo3{
+    background-color: salmon;
+    width:700px;
+    height: 325px;
+    float: right;
+
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(177, 130, 138);
+    clear: both;
+}
+footer img{
+    width: 90px;
+    padding: 10px;
+}
+
+.wasap{
+    width: 127px;
+}
