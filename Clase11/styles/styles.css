@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto; /*margin 0 auto -> Significa que 0px para arriba y abajo. Auto es que derecha e izquierda tiene la misma cantidad, al ser alto y ancho 0 px, los lados medirían 50% */
 }
 
 body{
